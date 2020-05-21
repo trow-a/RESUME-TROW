@@ -1,0 +1,29 @@
+.sec1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1 {
+    font-size: 5vw;
+}
+
+.sub1 {
+    font-size: 2vw;
+}
+
+.icons {
+    display: inline-block;
+    margin: 10px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.icons:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}

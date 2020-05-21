@@ -1,0 +1,38 @@
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+.nav {
+    cursor: pointer;
+    margin: 15px;
+    font-size: 2vw;
+}
+
+.nav:hover {
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+
+.themeswitcher {
+    cursor: pointer;
+    margin: 15px;
+    font-size: 2vw;
+    position: fixed;
+    right: 5px;
+    animation: rotate 2s infinite;
+    animation-play-state: running;
+}
+
+.themeswitcher:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(45deg);
+    }
+}

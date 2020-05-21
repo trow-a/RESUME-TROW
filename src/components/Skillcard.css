@@ -1,0 +1,46 @@
+.card {
+    width: 14vw;
+    height: 40vh;
+    background-color: grey;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding: 15PX;
+}
+
+.card:hover {
+    animation: card 1s;
+}
+
+@keyframes card {
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+.card-images {
+    width: 10vw;
+    height: 20vh;
+}
+
+.skill-title-wrapper {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.image-wrapper {
+    background-size: 10vw;
+    width: 10vw;
+    height: 25vh;
+    display: inline-block;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+
+.image-wrapper:hover {
+    transform: rotateY(360deg);
+}

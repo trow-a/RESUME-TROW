@@ -1,0 +1,83 @@
+{
+    "Title": "HELLO I'M ALIREZA",
+    "Subtitle": "A Self Leaner | An Ambivert | Yugi",
+
+    "Links": {
+        "github": "https://github.com/trow-a/trow-af24.github.io.git",
+        "Stackoverflow": "https://meta.stackoverflow.com/",
+        "Twitter": "https://twitter.com/Alireza71124077",
+        "Instagram": "https://www.instagram.com/?hl=en"
+    },
+    "Sections": [
+
+        {
+            "Theme": "images/theme.png",
+            "Title": "About",
+            "Items": [
+
+                {
+                    "Type": "p",
+                    "Content": "I'm a Metallurgy Engineer ."
+                },
+                {
+                    "Type": "p",
+                    "Content": "A professional 8-Ball-Pool palyer . "
+                },
+                {
+                    "Type": "p",
+                    "Content": "Flattered by Cosmology , a Stargazer , and a contemplater ."
+                },
+                {
+                    "Type": "p",
+                    "Content": "I believe you can learn everything , having a company called Google ."
+                }
+
+            ]
+        },
+
+        {
+            "Title": "Skills",
+            "Items": [
+
+                {
+                    "Type": "Card",
+                    "Content": {
+                        "Image": "images/React.svg",
+                        "Title": "React"
+
+
+                    }
+                },
+                {
+                    "Type": "Card",
+                    "Content": {
+                        "Image": "images/Javascript.svg",
+                        "Title": "Javascript"
+
+
+                    }
+                },
+                {
+                    "Type": "Card",
+                    "Content": {
+                        "Image": "images/HTML.svg",
+                        "Title": "HTML"
+
+
+                    }
+                },
+                {
+                    "Type": "Card",
+                    "Content": {
+                        "Image": "images/Css.svg",
+                        "Title": "Css"
+
+
+                    }
+                }
+
+            ]
+        }
+
+    ]
+}

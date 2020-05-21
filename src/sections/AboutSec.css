@@ -1,0 +1,13 @@
+.sec2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 {
+    font-size: 5vw;
+}

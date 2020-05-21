@@ -1,0 +1,25 @@
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .App {
+            text-align: center;
+        }
+        
+        a:link {
+            color: black;
+        }
+        
+        a:visited {
+            color: black;
+        }
+        
+        a:hover {
+            color: maroon;
+        }
+        
+        a:active {
+            color: silver;
+        }
